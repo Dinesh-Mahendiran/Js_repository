@@ -1,0 +1,196 @@
+Day 1 - Codekata
+
+Programming:
+            Machine understandable language,
+            To give instructions to the computer,
+            Reduce human effort.
+            
+Variables:
+
+Values => You can store different things!
+  
+  Strings => "Fruits"
+  Numbers => 1234
+
+Example:
+
+var          fruits             =              "apple";
+ |             |                                  |
+variable    variable name                        value
+
+var toys = "remote control car"; -> string
+var noOfToys = 1; -> Number
+
+
+Task:
+
+variable,
+variable name - batch
+value - number
+
+Example:
+
+var name = "Joe";
+var batch = "B52WD Tamil";
+var placed = "He is placed at Google";
+
+console.log(batch);
+
+Variable Types:
+1. Strings
+2. Numbers
+
+Change Number To String:
+var age = 15;
+var ageString = age.toString();
+console.log(ageString); -> "15"
+
+
+String:
+
+=> length
+=> toUpperCase(), toLowerCase();
+=> CharAt()
+=> substrings()
+=> split()
+=> indexOf()
+=> replace()
+=> trim()
+
+1. length - returns the number of character is a string.
+Example:
+        var fruits = "Orange";
+        console.log(fruits.length);
+
+Example:
+var fruits = "Apple is a tasty fruit";
+console.log(fruits.length);
+
+// "Apple" -> word
+// "Apple is a fruit" -> sentance
+        
+2. toUpperCase() & toLowerCase(): Convert a string to uppercase or lowercase
+Example:
+var fruits = "Apple is a tasty fruit";
+console.log(fruits.toUpperCase());
+
+var fruits = "APPLE IS A TASTY FRUIT";
+console.log(fruits.toLowerCase());
+
+-------------------------------------------------------------------------------------
+
+Day 2 - Codekata
+
+3. CharAt(): returns the character at a specified index in a string.
+Example:
+        "t r a i n s" -> position
+         0 1 2 3 4 5
+
+Example:
+var fruits = "Mango";
+console.log(fruits.charAt(3));
+
+4. substring(): extract a position of a string between two specified index.
+Example:
+var toys = "train"
+console.log(toys.substring(2,4));
+
+* Array
+var name = "Joe"
+var age = 5;
+
+var person = ["Joe", 5];
+console.log(person[0]);
+
+5. split(): split is a string into an array of substring based on specified separator.
+
+"Hello, world"
+
+Example:
+var myString = "Hello, world";
+var myArray = myString.split(",");
+console.log(myArray);
+
+6.indexOf(): returns the index of the first occurance of the special value in a string.
+Example:
+var myString = "Name";
+console.log(myString.indexOf("m"));
+
+* index value:
+  N a m e
+  0 1 2 3
+
+7. replace(): replace a specified value with a new value.
+Example:
+var myString = "Nume";
+var newStr = myString.replace("u","a");
+console.log(newStr);
+
+8.trim(): removes whitespace from both end of a string.
+Example: Its work your homework.
+
+Boolean: True/False
+Example:
+var age = 8;
+console.log(age>9);
+
+if:
+   Syntax:
+          if(condition){
+            //Code to be executed when the condition is true
+          }
+
+Example:
+var x = 4;
+if(x % 2 == 0){
+    console.log("Even");
+}else {
+    console.log("Odd");
+}
+
+Example:
+== - Only check values
+=== - both values and type
+
+Example:
+var x = 0;
+var y = "0";
+console.log(x===y);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
